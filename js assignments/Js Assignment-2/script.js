@@ -1,111 +1,136 @@
-alert("Hello World");
+//                                                           -Alert-
+
+// alert("Asalamualikum");
+// alert("Welcome to js");
+// alert("Happy Coding");
+// console.log("Hello...I can run JS through my web browser's console ");
 
 
-//                                                    [--ARRAYS--]
+//                                                    -VARIABLES FOR STRINGS-
 
-//Qno:1 
-// let stds = []
+//Qno:1
+// var userName;
 
 //Qno:2
-// let std = []
+// var myName = "Haram Naeem"
+
+//Qno:3
+// var message = "Hello World"
+// alert(message);
+
+//Qno:4
+// var studentName = "Jhone Doe";
+// var age = "15 years old";
+// var profession = "Certified Mobile Application Development";
+// alert(studentName);
+// alert(age);
+// alert(profession);
+
+//Qno:5
+// var pizza = alert("Pizza"+ "\n" + "Pizz" + "\n" + "Piz" + "\n" + "Pi" + "\n" + "P");
+
+//Qno:7
+
+// var book = "A smarter way to learn JavaScript"
+// alert("I am trying to learn from the book " + book);
+
+//Qno:8
+// document.write("Yah! I can write HTML content through JavaScript ")
+
+//Qno:9
+// var end ="▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬"
+// alert(end);
+//                                                        --End--
+
+//                                                -VARIABLES FOR NUMBERS-
+
+//Qno:1
+// var age = 18;
+// alert("I am " + age + " Years old")
+
+//Qno:2
 
 
 //Qno:3
-// let arr = "[a,b,c]"
+// var birthYear = 2006;
+// document.write("My birth year is " + birthYear);
 
 //Qno:4
-// let num = [1,2,3]
+// var visitorName = prompt("Enter your name");
+// var productTitle = prompt("Enter your product name");
+// var quantity = prompt("Enter your product quantity");
+// document.write(visitorName + " ordered " + " " + quantity + " " + " " + productTitle);
+
+//                                                        --End--
+
+//                                              -VARIABLE NAMES: LEGAL & ILLEGAL-
+//Qno:1
+
+
+//Qno:2
+//5 legal variable name:
+// var name
+// var userName
+// var _name
+//var $dolers
+//var #hello
+
+//5 illegal variable name:
+// var Name
+// var user name
+// var 3
+// var red&blue
+// var function 
+      
+
+
+//Qno:3
+// document.write("<h2>Rules for naming JS variables</h2>")
+// document.write("Variable names can only contain numbers,$ and _. For example $my_1stVariable");
+// document.write("<p>Variables must begin with a letter,$ and _ . For example $name, _name or name </p>")
+// document.write("<p>Variable names are case sensitive </p>")
+// document.write("<p> Variable names should not be JS keywords </p>")
+
+//                                                        --End--
+
+//                                                      -MATH EXPRESSIONS-
+//Qno:1
+// var a = 2;
+// var b = 3;
+// var add = a+b;
+
+//Qno:2
+// var subtract = a-b;
+// var multiplication = a*b;
+// var division = a/b;
+// var modulus = a%b;
+// document.write("<p>The addition of " + a + " and " + b + " is " + add + "</p>");
+// document.write("<p>The  subtraction of " + a + " and " + b + " is " + subtract + "</p>" );
+// document.write("<p>The multiplication of " + a + " and " + b + " is " + multiplication + "</p>");
+// document.write("<p>The division of " + a + " and " + b + " is " + division + "</p>" );
+// document.write("<p>The modulus of " + a + " and " + b + " is " + modulus + "</p>" );
+
+//Qno:3
+// var value = 4;
+// document.write("<p>Value after variable declaration is: " + value +  "</p>");
+// var initialValue = 1;
+// document.write("<p>Initial value:" + initialValue +  "</p>");
+// document.write("<p>“Value after increment is: " + initialValue + 1 +  "</p>");
+
+//Qno:4
+// var price = 600;
+// document.write("Total cost to buy 5 tickets to a movie is " + price*5 + " PKR");
 
 //Qno:5
-// let boolean = [true,false];
-
-//Qno:6
-// let mix = [1,2,3,a,b,c,true ]
-
-//Qno:7
-// let degree = [  
-//     "Qualifications in Pakistan:",
-//     "1) SSC",
-//     "2) HSC",
-//     "3) BCS",
-//     "4) BS",
-//     "5) BCOM",
-//     "6) MS",
-//     "7) M.Phil.",
-//     "8) PhD",
-// ];
-// document.write(degree[0], '<br />')
-// document.write(degree[1], '<br />')
-// document.write(degree[2], '<br />')
-// document.write(degree[3], '<br />')
-// document.write(degree[4], '<br />')
-// document.write(degree[5], '<br />')
-// document.write(degree[6], '<br />')
-// document.write(degree[7], '<br />')
-// document.write(degree[8], '<br />')
-    
-
-
-//Qno:8
-// let totalmarks = 500;
-// let std = ["Micheal","John","Tony"]
-// let score = [320,230,480]
-
-// document.write("Score of " + std[0] + " is " + score[0] + ". Percentage: " + score[0]/totalmarks*100 + "%", '<br />');
-// document.write("Score of " + std[1] + " is " + score[1] + ". Percentage: " + score[1]/totalmarks*100 + "%", '<br />');
-// document.write("Score of " + std[2] + " is " + score[2] + ". Percentage: " + score[2]/totalmarks*100 + "%" );
-
-
-
-//Qno:9
-// let colors = ["blue","red","yellow"]
-// document.write(colors, '<br />');
-
-//a
-// let addColor = prompt("What color you want to add at beginning")
-// colors.unshift(addColor);
-// document.write(colors, '<br />');
-
-//b
-// let endColor = prompt("What color you want to add at last")
-// colors.push(endColor);
-// document.write(colors, '<br />');
-
-//c
-// colors.unshift("green","black")
-// document.write(colors, '<br />');
-
-//d
-// colors.shift()
-// document.write(colors, '<br />');
-
-//e
-// colors.pop()
-// document.write(colors, '<br />');
-
-//f
-// let index = prompt("In which index you want to add color")
-// let indexColor = prompt("Write color name")
-// colors.splice(index,0,indexColor)
-// document.write(colors, '<br />');
-//g
-// let indexDel = prompt("In which index you want to add color")
-// let del = prompt("How many colors you want to delete")
-// colors.splice(indexDel,del)
-// document.write(colors);
-
-//Qno:10
-let stdScore = [320,230,480,120];
-document.write("Scores of Students:",stdScore, '<br />');
-stdScore.sort();
-document.write("Ordered Scores of Students:",stdScore);
-
-//Qno:11
-// document.write("Cities list:", '<br />')
-// let city = ["Karachi","Islamabad", "Lahore","Quetta","Peshawar"];
-// document.write(city , '<br />')
-
-// let copy = city.slice(1,3);
-// document.write(copy , '<br />')
-
-
+//TABLE OF 4
+// var table = 4
+// document.write( "<p>4 x 1 = " + table*1 + "</p>");
+// document.write( "<p>4 x 2 = " + table*2 + "</p>");
+// document.write( "<p>4 x 3 = " + table*3 + "</p>");
+// document.write( "<p>4 x 4 = " + table*4 + "</p>");
+// document.write( "<p>4 x 5 = " + table*5 + "</p>");
+// document.write( "<p>4 x 6 = " + table*6 + "</p>");
+// document.write( "<p>4 x 7 = " + table*7 + "</p>");
+// document.write( "<p>4 x 8 = " + table*8 + "</p>");
+// document.write( "<p>4 x 9 = " + table*9 + "</p>");
+// document.write( "<p>4 x 10 = " + table*10 + "</p>");
